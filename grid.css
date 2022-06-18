@@ -22,7 +22,7 @@ main div{
 body{
     min-height: 100vh;
 
-    background-color: #4f4dac;
+    background-color: #a1ac4d;
     display: flex;
     place-items: center;
 }
