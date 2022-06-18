@@ -1,0 +1,188 @@
+:root{
+    /*# primary */
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* # Neutral */
+    --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray-background-headings-buttons : hsl(0, 0%, 95%);
+}
+
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+ 
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    font-size: 15px;
+    font-family: "Big Shoulders Display", "Lexend Deca", sans-serif;
+    background-color: var(--Very-light-gray-background-headings-buttons);
+    height: 100%;
+    width: 100%;
+    
+}
+#parent {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin: 35px;
+    flex-direction: row;
+}
+.child1 {
+   background-color:var(--Bright-orange);
+   margin-left: 10px;
+   height: 95% ;
+   padding: 50px;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   width: 100%;
+   margin-right: -10px;
+}
+.child1 h1{
+    
+   color: var(--Very-light-gray-background-headings-buttons);
+    font-weight: 400;
+    font-family:"Lexend Deca" sans-serif;
+    padding-bottom: 40px;
+}
+.child1 p {
+    color: var(--Transparent-white-paragraphs);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+.child1 button {
+    padding:15px 60px ;
+    margin: 100px 6px;
+    border-radius: 40px;
+    background-color: var(--Very-light-gray-background-headings-buttons);
+    color: var(--Bright-orange);
+    cursor: pointer;
+    font-family: "Lexend Deca", sans-serif;
+    
+
+}
+.child1 .logo{
+    position: relative;
+    padding-bottom: 40px;
+    padding-left: -5px;
+    font-size: xx-large;
+    color: rgba(255, 255, 255, 0.842);
+}
+.child1 .logo::before {
+    position: relative;
+    content: "";
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.459);
+    top: 2px;
+    left: 2px;
+    border-radius: 50px;
+}
+
+
+.child2{
+    background-color: var(--Dark-cyan);
+    padding: 50px;
+    height: 95%;
+    margin-left:10px;
+    width: 100%;
+    
+}
+.child2 h1{
+    color: var(--Very-light-gray-background-headings-buttons);
+    font-weight: 400;
+    font-family: "Lexend Deca" sans-serif;
+    padding-bottom: 40px;
+}
+.child2 p{
+    color: var(--Transparent-white-paragraphs);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+.child2 button {
+    padding:15px 60px ;
+    margin: 100px 6px;
+    border-radius: 40px;
+    background-color: var(--Very-light-gray-background-headings-buttons);
+    color:var(--Dark-cyan);
+    cursor: pointer;
+    font-family: "Lexend Deca", sans-serif;
+}
+.child2 .logo{
+    position: relative;
+    padding-bottom: 40px;
+    padding-left: -5px;
+    font-size: xx-large;
+    color: rgba(255, 255, 255, 0.842);
+}
+.child2 .logo::before {
+    position: relative;
+    content: "";
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.459);
+    top: 2px;
+    left: 2px;
+    border-radius: 50px;
+}
+
+
+
+.child3{
+    background-color: var(--Very-dark-cyan);
+    padding: 50px;
+    height: 95%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+} 
+.child3 h1{
+    color: var(--Very-light-gray-background-headings-buttons);
+    font-family: "Lexend Deca" sans-serif ;
+    font-weight: 400;   
+    padding-bottom: 40px;
+
+}
+.child3 p{
+    color: var(--Transparent-white-paragraphs);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.child3 button {
+    padding:15px 60px ;
+    margin: 100px 6px;
+    border-radius: 40px;
+    background-color: var(--Very-light-gray-background-headings-buttons);
+    color:var(--Very-dark-cyan);
+    cursor: pointer;
+    font-family: "Lexend Deca", sans-serif;
+}
+.child3 .logo {
+    position: relative;
+    padding-bottom: 40px;
+    padding-left: -5px;
+    font-size: xx-large;
+    color: rgba(255, 255, 255, 0.842);
+}
+.child3 .logo::before {
+    position: relative;
+    content: "";
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.459);
+    top: 2px;
+    left: 2px;
+    border-radius: 50px;
+}
